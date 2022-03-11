@@ -130,3 +130,13 @@ Review all available scripts in the `package.json`.
 - Run the app in dev mode: `npm start`
 - Run the test runner in interactive watch mode: `npm test`
 - Deploy the app (deploys to darothmedia/capidle): `npm run deploy`
+
+
+### GeoCities API
+- To run this application, you will need to sign up for an account in [RAPIDAPI](https://rapidapi.com/)
+- After you've signed up, add [GEODB Cities endpoint](https://rapidapi.com/wirefreethought/api/geodb-cities/) and click Test Endpoint to get the rapid api key
+- After getting the API key, you need to create a file `config.js` in in the `src` directory. It should look like this 
+
+```
+export const APIkey = '<YOUR_API_KEY_HERE>'
+```
